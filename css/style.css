@@ -1,5 +1,5 @@
 body {
-    background-color: #b4e3ef;
+    background-color: #2782dc;
     font-family: verdana;
     font-size: 20px;
   }
@@ -8,3 +8,10 @@ body {
     color: white;
     text-align: center;
   }
+  
+ .nav-item{
+  list-style-type: None;
+  
+
+ }
+ a:link {text-decoration: None;}
