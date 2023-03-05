@@ -1,3 +1,4 @@
+
 body {
     background-color: #2782dc;
     font-family: verdana;
@@ -35,10 +36,4 @@ body {
 .pos-f-t{
   text-align: right;
   padding-right: 50px;
-}
-
-#calendar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
