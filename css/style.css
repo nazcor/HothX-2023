@@ -2,17 +2,29 @@ body {
     background-color: #2782dc;
     font-family: verdana;
     font-size: 20px;
-    padding-left: 50px;
   }
 
  h4 {
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
   font-size : 30px;
  }
 
   h1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     color: white;
-    text-align: center;
+  }
+  
+  p {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
   }
   
 .navbar {
@@ -22,6 +34,7 @@ body {
 
  .nav-item{
   list-style-type: None;
+  padding-bottom: 10px;
  }
 
  a:link {
@@ -35,6 +48,7 @@ body {
 .pos-f-t{
   text-align: right;
   padding-right: 50px;
+  background-color: #91B4EB;
 }
 
 #calendar {
