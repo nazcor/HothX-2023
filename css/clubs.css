@@ -12,21 +12,26 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
-    height: 800px;
+    height: auto;
+    gap: 30px;
 }
 
 #club-footer {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     flex-direction: column;
+    background-color: #2D68C4;
 }
 
 #club-request {
@@ -37,18 +42,37 @@
     border: none;
 }
 
-.card-body {
-    margin: 0 0;
+.card {
+    flex-basis: 20%;
 }
 
-.btn {
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0;
+    flex: none;
+    flex-basis: auto;
+    height: 200px;
+}
+
+.card-title {
+    height: 90%;
+}
+
+.card-body .btn {
     color: black;
     background-color: #f4c753;
     padding: 2px 20px;
     border-radius: 20px;
     border: none;
+    align-self: flex-start;
 }
 
 .btn:hover {
     background-color: #d4ad49;
+}
+
+.card-img-top {
+    height: 300px;
 }
