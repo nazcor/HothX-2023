@@ -87,6 +87,14 @@ body {
   justify-content: center;
 }
 
+#form {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
 .about {
   color: black;
   text-align: center;
