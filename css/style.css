@@ -99,6 +99,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 #form {
@@ -117,10 +120,16 @@ body {
   padding-left: 300px;
   padding-right: 300px;
 }
+.about2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
 
 .logo {
   text-align: center;
-  padding-top: 100px;
   padding-bottom: 30px;
   padding-left: 300px;
   padding-right: 300px;
@@ -133,6 +142,8 @@ body {
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
+  margin: 10px;
+  border-radius: 50px;
 }
 
 .btn-group button:not(:last-child) {
@@ -150,3 +161,4 @@ body {
 .btn-group button:hover {
   background-color: #8A93E0;
 }
+
