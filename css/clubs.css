@@ -76,3 +76,11 @@
 .card-img-top {
     height: 300px;
 }
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
