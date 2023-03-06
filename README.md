@@ -11,3 +11,7 @@ The best way to run this locally on your computer is to clone the repository on 
     cd Perspective
 
 From there, you can download the extension Live Server to access your our web app on your local browser.
+
+<p align="center">
+    <img src="cover.png">
+</p>
