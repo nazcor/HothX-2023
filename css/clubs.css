@@ -16,10 +16,9 @@
     padding-left: 100px;
     padding-right: 100px;
     align-items: start;
-    justify-content: space-between;
     background-color: white;
     height: auto;
-    gap: 30px;
+    gap: 30px 85px;
 }
 
 #club-footer {
@@ -40,6 +39,10 @@
     padding: 2px 20px;
     border-radius: 20px;
     border: none;
+}
+
+.card-img-top {
+    object-fit: cover;
 }
 
 .card {
