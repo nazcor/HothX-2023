@@ -81,6 +81,20 @@ body {
   background-color: #91B4EB;
 }
 
+.ClubHost {
+  color: black;
+  background-color: #91B4EB;
+  border-color: #91B4EB;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px;
+  border-radius: 20%;
+  background-color: #91B4EB;
+}
+
 #calendar {
   display: flex;
   align-items: center;
@@ -102,4 +116,37 @@ body {
   padding-bottom: 30px;
   padding-left: 300px;
   padding-right: 300px;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.btn-group button {
+  background-color: #91B4EB; /* Green background */
+  border: 1px solid white; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #8A93E0;
 }
