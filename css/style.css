@@ -35,7 +35,7 @@ body {
 
 .navbar {
   float: right;
-  padding-top: 30px;
+  padding-top: 30px; 
 }
 
  .nav-item{
@@ -55,6 +55,7 @@ body {
 .pos-f-t{
   text-align: right;
   padding-right: 50px;
+  padding-bottom: 1px;
   background-color: #91B4EB;
 }
 
