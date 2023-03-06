@@ -162,3 +162,8 @@ body {
   background-color: #8A93E0;
 }
 
+#footer {
+  height: 120px;
+  width: 100vw;
+  background-color: #2D68C4;
+}

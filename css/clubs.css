@@ -21,7 +21,7 @@
     gap: 30px 85px;
 }
 
-#club-footer {
+#club-register {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
@@ -30,11 +30,12 @@
     align-items: center;
     color: white;
     flex-direction: column;
-    background-color: #2D68C4;
+    color: black;
+    font-size: 25px;
 }
 
 #club-request {
-    font-size: 15px;
+    font-size: 20px;
     background-color: #f4c753;
     padding: 2px 20px;
     border-radius: 20px;
